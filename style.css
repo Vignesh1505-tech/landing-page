@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background: url("/Assets/Background.png") no-repeat center/cover;
+    
+}
+.data{
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+.main1{
+    display: flex;
+    position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.data img{
+    width: 70%;
+    height:auto;
+    display:relative;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo{
+    margin-top: 50px;
+    margin-left: 12%;
+}
+.icon{
+    margin-left: 50%;
+}
+.nav a{
+    text-decoration: none;
+    margin-left: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+.nav button{
+    margin-left: 10px;
+}
+button{
+    background-color: black;
+    border-radius: 4px;
+    padding: 10px;
+    color: azure;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.main h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.rea{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.sm{
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.data1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    margin-top: 50px;
+}
+.detail{
+    margin-left: 150px;
+}
+.im{
+    margin-left: 100px;
+}
+.im img{
+    max-width: 100%;
+    width:600px;
+    height: auto;
+}
+footer{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    position: relative;
+}
+footer img{
+    margin-left: 10%;
+}
+.foot{
+    text-align: right;
+   
+   
+}
+.ft{
+    text-decoration: none;
+    color: black;
+}
+.ft1{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+    margin-right: 200px;
+}
