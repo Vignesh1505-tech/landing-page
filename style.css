@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .top{
-    background: url("Assets/Background.png") no-repeat center/cover;
+    background: url('Assets/Background.png') no-repeat center/cover;
     
 }
 .data{
