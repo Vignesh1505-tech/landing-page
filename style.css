@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .top{
-    background: url('Assets/Background.png') no-repeat center/cover;
+    background: url("Assets/Background.png") no-repeat center/cover;
     
 }
 .data{
@@ -53,6 +53,7 @@ button{
     background-color: black;
     border-radius: 4px;
     padding: 10px;
+    margin-bottom: 50px;
     color: azure;
     font-size: 15px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -78,20 +79,33 @@ button{
 }
 .data1{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
     margin-top: 50px;
+    position:relative;
 }
 .detail{
-    margin-left: 150px;
+    margin-left: 100px;
+    position: relative;
 }
 .im{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .im img{
-    max-width: 100%;
-    width:600px;
+    max-width: 90%;
+    width:100%;
     height: auto;
+    align-content: flex-end;
 }
+@media (max-width: 480px) {
+    .im img{
+        align-items: center;
+        width: 500px;
+        height: 500px;
+        
+    
+    }
+    
+} 
 footer{
     margin-top: 15%;
     margin-bottom: 5%;
