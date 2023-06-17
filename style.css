@@ -101,6 +101,7 @@ button{
     display:-ms-flexbox;
     position: relative;
     margin:10px;
+    margin-left:5px;
 }
 
 .im img{
